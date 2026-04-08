@@ -1,0 +1,13 @@
+# Core dependencies
+pyspark==3.4.1
+networkx
+matplotlib
+pympler
+pandas
+
+# Notebook support
+notebook
+ipykernel
+
+# Note: graphframes is loaded as Spark package via:
+# .config("spark.jars.packages", "graphframes:graphframes:0.8.3-spark3.4-s_2.12")

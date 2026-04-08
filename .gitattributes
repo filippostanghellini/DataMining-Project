@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+data/** filter=lfs diff=lfs merge=lfs -text
+data/amazon-meta.txt filter=lfs diff=lfs merge=lfs -text
+data/ratings.csv filter=lfs diff=lfs merge=lfs -text
